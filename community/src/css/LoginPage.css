@@ -1,0 +1,259 @@
+/* LoginPage */
+
+.loginPage{
+  font-family: 'Nanum Gothic', sans-serif;
+}
+.loginPage header{
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+
+.loginPage header img{
+  width: 230px;
+  cursor: pointer;
+}
+
+.loginPage section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 30px;
+  border-top: 1px solid #e2e2e2;
+  padding-top: 20px;
+}
+
+.login_id_pw{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  width: 40%;
+}
+
+.login_input{
+  width: 60%;
+  height: 40px;
+  border: 1px solid #d7d6d6;
+  border-radius: 5px;
+  padding-left: 15px;
+  outline: none;
+}
+
+.login_input:focus{
+  border: 2px solid #5db1d3c9;
+}
+
+.login_user{
+  position: relative;
+  top: 7px;
+  color: #5db1d3c9;
+}
+
+.login_eye{
+  position: absolute;
+  top: 320px;
+  right: 37%;
+  cursor: pointer;
+}
+
+.auto_search{
+  width: 28%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -30px;
+}
+
+.auto_login label{
+  cursor: pointer;
+}
+
+.auto_login label input{
+  cursor: pointer;
+}
+
+.search_login a {
+  text-decoration-line: none;
+  color: #0662f7;
+  cursor: pointer;
+}
+
+.login_join{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  width: 40%;
+}
+
+.login_join button{
+  width: 70%;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  background-color: #5db1d3c9;
+  font-size: 16px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.easy_login{
+  width: 29%;
+}
+
+.easy_login_text{
+  color: #a8a8a8;
+  font-size: 14px;
+  border-bottom: 1px solid #e2e2e2;
+  padding-bottom: 10px;
+  margin: 20px 0px;
+}
+
+.easy_login_img{
+  display: flex;
+  justify-content: space-evenly;
+  cursor: pointer;
+}
+
+.easy_login_img_kakao{
+  border: 1px solid #4a4a4a24;
+  border-radius: 7px;
+  padding: 4px;
+  color: #f4dc0a;
+}
+
+.easy_login_img_wechat{
+  border: 1px solid #4a4a4a24;
+  border-radius: 7px;
+  padding: 4px;
+  color: #4ec034;
+}
+
+.easy_login_img_naver{
+  border: 1px solid #4a4a4a24;
+  border-radius: 7px;
+  padding: 9px;
+  color: #03cf5d;
+}
+
+.easy_login_img_google{
+  border: 1px solid #4a4a4a24;
+  border-radius: 7px;
+  padding: 6.5px;
+  color: #4285f4;
+}
+
+/* 반응형 */
+
+@media (max-width: 1300px) {
+  .login_id_pw{
+    width: 50%;
+  }
+
+  .login_eye{
+    right: 33%;
+  }
+
+  .auto_search{
+    width: 36%;
+  }
+
+  .login_join{
+    width: 50%;
+  }
+
+  .easy_login{
+    width: 36%;
+  }
+}
+
+@media (max-width: 900px) {
+  .login_id_pw{
+    width: 60%;
+  }
+
+  .login_eye{
+    right: 30%;
+  }
+
+  .auto_search{
+    width: 44%;
+  }
+
+  .login_join{
+    width: 61%;
+  }
+
+  .easy_login{
+    width: 46%;
+  }
+}
+
+@media (max-width: 700px) {
+  .login_id_pw{
+    width: 100%;
+  }
+
+  .login_eye{
+    right: 17%;
+  }
+
+  .auto_search{
+    width: 70%;
+  }
+
+  .login_join{
+    width: 100%;
+  }
+
+  .easy_login{
+    width: 80%;
+  }
+}
+
+@media (max-width: 500px){
+  .login_eye{
+    right: 15%;
+  }
+}
+
+@media (max-width: 410px){
+  .auto_search{
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+}
+
+@media (max-width: 350px){
+  .login_eye{
+    right: 14%;
+  }
+}
+
+@media (max-width: 300px) {
+  .loginPage header{
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
+
+  .loginPage header img{
+    width: 180px;
+  }
+
+  .login_eye{
+    top: 250px;
+    right: 11%;
+  }
+
+  .easy_login{
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .easy_login_text{
+    margin-top: 0px;
+  }
+}

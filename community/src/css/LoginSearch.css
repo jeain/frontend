@@ -1,0 +1,163 @@
+.LoginSearch {
+  font-family: "Nanum Gothic", sans-serif;
+}
+
+.LoginSearch header {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+
+.LoginSearch header img {
+  width: 200px;
+  cursor: pointer;
+}
+
+.LoginSearch section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #e2e2e2;
+  padding-top: 20px;
+  margin-bottom: 50px;
+}
+
+.LoginSearch .search_id {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 80%;
+}
+
+.LoginSearch .search_id p {
+  margin: auto;
+  font-size: 20px;
+  font-weight: bold;
+  color: #989898;
+}
+
+.LoginSearch .search_id input {
+  width: 400px;
+  height: 40px;
+  border: 1px solid #e2e2e2;
+  border-radius: 5px;
+  padding-left: 15px;
+}
+
+.LoginSearch .search_id span {
+  margin-right: 10px;
+}
+
+.LoginSearch .search_id button {
+  width: 419px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #5db1d3c9;
+  cursor: pointer;
+}
+
+.LoginSearch .search_pw {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 80%;
+  margin-top: 30px;
+}
+
+.LoginSearch .search_pw p {
+  margin: auto;
+  font-size: 20px;
+  font-weight: bold;
+  color: #989898;
+}
+
+.LoginSearch .search_pw input {
+  width: 400px;
+  height: 40px;
+  border: 1px solid #e2e2e2;
+  border-radius: 5px;
+  padding-left: 15px;
+}
+
+.LoginSearch .search_pw span {
+  margin-right: 10px;
+}
+
+.LoginSearch .search_pw button {
+  width: 419px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #5db1d3c9;
+  cursor: pointer;
+}
+
+/* 반응형 */
+@media (max-width: 450px) {
+  .LoginSearch .search_id input{
+    width: 300px;
+  }
+  .LoginSearch .search_id button{
+    width: 319px;
+  }
+  .LoginSearch .search_pw input{
+    width: 300px;
+  }
+  .LoginSearch .search_pw button{
+    width: 319px;
+  }
+}
+
+@media (max-width: 350px) {
+  .LoginSearch .search_id input{
+    width: 250px;
+  }
+  .LoginSearch .search_id button{
+    width: 269px;
+  }
+  .LoginSearch .search_pw input{
+    width: 250px;
+  }
+  .LoginSearch .search_pw button{
+    width: 269px;
+  }
+}
+
+@media (max-width: 280px) {
+  .LoginSearch header {
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+  .LoginSearch header img {
+    width: 150px;
+  }
+  .LoginSearch .search_id p {
+    font-size: 16px;
+  }
+  .LoginSearch .search_id input{
+    width: 220px;
+  }
+  .LoginSearch .search_id button{
+    width: 239px;
+  }
+  .LoginSearch .search_pw p {
+    font-size: 16px;
+  }
+  .LoginSearch .search_pw input{
+    width: 220px;
+  }
+  .LoginSearch .search_pw button{
+    width: 239px;
+  }
+}
